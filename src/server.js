@@ -30,7 +30,6 @@ mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/task-manage
     useUnifiedTopology: true,
 });
 
-// Swagger configuration
 const swaggerOptions = {
     swaggerDefinition: {
         openapi: '3.0.0',
